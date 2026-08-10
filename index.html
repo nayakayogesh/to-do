@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do list</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>To Do list:</h1>
+        <table id="todo-table" class="table">
+            <tr>
+                <th>Sl no</th>
+                <th>Task</th>
+                <th>Status</th>
+                <th>Created</th>
+                <th>DeadLine</th>
+                <th>Button</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>FastAPI</td>
+                <td>Progressing</td>
+                <td>10-08-2026</td>
+                <td>31-08-2026</td>
+                <td><input type="button" value="Done" name="done"></td>
+            </tr>
+        </table>
+        <input type="button" value="Add" name="add_task" id="add_task" class="button">
+        <input type="button" value="Remove Complete" name="reset" id="reset_list" class="button">
+    </body>
+    <script src="./main.js"></script>
+</html>
