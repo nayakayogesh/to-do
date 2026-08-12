@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background: #f4f6f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.list {
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid #2d3436;
+  border-radius: 0.5rem;
+}
+
+caption {
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #2d3436;
+  border: none;
+}
+
+th, td {
+  border: none;
+  padding: 0.9rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #2d3436;
+  border-radius: 0.5rem;
+}
+
+th {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+th:first-child{
+    border-top-left-radius: 0.5rem;
+}
+th:last-child{
+    border-top-right-radius: 0.5rem;
+}
+
+td input[type="button"]{
+    background-color: #27ae60;
+}
+td input[type="button"]:hover{
+    background-color: #219150;
+}
+
+.button{
+    border: None;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    
+}
+
+tbody tr:hover{
+    background-color: #f4f6f8;
+}
+input[type="button"]:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+#reset_list {
+  background-color: #c0392b;
+}
+#reset_list:hover {
+  background-color: #962d22;
+}
+.add-remove-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.add-remove-buttons > .button{
+    margin: 0.5rem 1rem 0 1rem;
+}
